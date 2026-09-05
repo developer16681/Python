@@ -4,7 +4,7 @@ import math
 
 # Initialize Pygame
 pygame.init()
-WIDTH, HEIGHT = 900, 600
+WIDTH, HEIGHT = 1080, 720
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Interactive Physics Particle Fountain")
 clock = pygame.time.Clock()
