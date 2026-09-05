@@ -13,7 +13,12 @@ GRID_WIDTH = 30
 GRID_HEIGHT = 20
 SCREEN_WIDTH = CELL_SIZE * GRID_WIDTH
 SCREEN_HEIGHT = CELL_SIZE * GRID_HEIGHT
-FPS = 5
+FPS = 5 
+""" 
+Change this value to adjust the speed of the snake in the game.
+ Higher values make the snake move faster,
+ while lower values make it move slower.
+ """
 
 # Colors
 BLACK = (20, 20, 20)
