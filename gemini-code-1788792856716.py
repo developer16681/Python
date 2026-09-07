@@ -170,7 +170,7 @@ gates = pygame.sprite.Group()
 particles = []
 
 score = 0
-gate_speed = 6
+gate_speed = 10
 spawn_timer = 0
 
 running = True
