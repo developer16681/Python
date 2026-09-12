@@ -5,7 +5,7 @@ months = ['Jan', 'Feb', 'Mar', 'Apr']
 sales = [10, 15, 7, 22]  # Note the drop in March (an anomaly!)
 
 # 2. Create the plot
-plt.plot(months, sales, marker='o', color='yellow')
+plt.plot(months, sales, marker='o', color='orange')
 
 # 3. Add context (labels and title)
 plt.title('2026 Q1 Sales Report')

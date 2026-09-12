@@ -1,6 +1,6 @@
 # A Python list containing all fundamental data types
 mixed_array = [
-    42,                         # int
+    42,                    # int
     3.14159,                    # float
     2 + 3j,                     # complex
     "Hello, Python!",           # str
@@ -15,5 +15,6 @@ mixed_array = [
 ]
 
 # 1. Print the entire list directly
-print("--- Full Array ---")
+print("--- Full " \
+"A\nay ---")
 print(mixed_array)
