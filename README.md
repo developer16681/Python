@@ -63,19 +63,22 @@ Sound effects and background music in uncompressed 16-bit PCM WAV format used ac
 - **Sound Effects**: `coin.wav`, `explosion_snd.wav`, `hit_snd.wav`, `jump.wav`, `laser_snd.wav`, `reload.wav`, `shoot.wav`, `shoot_pistol.wav`, `shoot_shotgun.wav`, `shoot_smg.wav`, `switch.wav`
 
 ### 📄 [`text_files/`](./text_files)
-- **`days.txt`**: Sample plaintext data used for file input/output testing.
+- **`days.txt`**: Sample plaintext line data for string and iteration exercises.
+- **`data.txt`**: Sample multi-line text used for file I/O operations (`open`, `read`, `write`).
+- **`people.csv`**: Sample tabular dataset with demographic records for Pandas CSV parsing exercises.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Prerequisites & Installation
 
-Python 3.9+ is recommended. Install required third-party libraries:
+Python 3.9+ is recommended. Install all repository dependencies via `requirements.txt`:
 
 ```bash
-pip install pygame ursina numpy pandas matplotlib scikit-learn
+pip install -r requirements.txt
 ```
+
 
 ### Running Scripts
 
