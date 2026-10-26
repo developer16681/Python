@@ -50,15 +50,15 @@ Interactive games, 2D arcade classics, and progressive 3D prototype versions:
 ### 📊 [`data_science/`](./data_science)
 Data manipulation, numerical computation, visualization, and ML implementations:
 - **NumPy & Arrays**:
-  - `Creating a Numpy Array.py`, `Data Types in Numpy.py`, `Basic Array Operations.py`, `Math Operations on DataType Array.py`, `Accessing the Array Index.py`, `printing_array.py`
+  - `numpy_array_creation.py`, `numpy_data_types.py`, `numpy_basic_operations.py`, `numpy_math_operations.py`, `numpy_array_indexing.py`, `numpy_array_formatting.py`
 - **Pandas & DataFrames**:
-  - `Creating a Series using a List.py`, `Creating a DataFrame using a Dictionary.py`, `pdpd.py` (DataFrame exploration with `head()`, `tail()`, and `info()`), `Reading CSV and JSON Files.py`
+  - `pandas_series_from_list.py`, `pandas_dataframe_from_dict.py`, `pandas_dataframe_exploration.py`, `pandas_read_csv_json.py`
 - **Machine Learning**:
-  - `KMeans Algorithm.py`: Unsupervised clustering example using scikit-learn.
-  - `Logistic Regression Algorithm.py`: Binary classification model with train/test splitting and accuracy evaluation.
+  - `kmeans_clustering.py`: Unsupervised clustering example using scikit-learn.
+  - `logistic_regression.py`: Binary classification model with train/test splitting and accuracy evaluation.
 - **Data Visualization & Stats**:
-  - `matplot.py`: Line and bar chart creation with Matplotlib.
-  - `statistics.py`: Calculations with Python's built-in `statistics` module (mean, median, mode, stdev).
+  - `matplotlib_visualization.py`: Line and bar chart creation with Matplotlib.
+  - `statistics_operations.py`: Calculations with Python's built-in `statistics` module (mean, median, mode, stdev).
 
 ### 🐍 [`basics/`](./basics)
 Core Python language fundamentals, clean coding idioms, and standard library demonstrations:
@@ -109,7 +109,7 @@ python games/Snake_Game.py
 python games/space_fighter.py
 
 # Run a data science script
-python "data_science/Logistic Regression Algorithm.py"
+python data_science/logistic_regression.py
 
 # Run a basics exercise
 python basics/prime_numbers.py
