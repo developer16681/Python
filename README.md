@@ -61,15 +61,17 @@ Data manipulation, numerical computation, visualization, and ML implementations:
   - `statistics.py`: Calculations with Python's built-in `statistics` module (mean, median, mode, stdev).
 
 ### 🐍 [`basics/`](./basics)
-Core Python language fundamentals and standard library demonstrations:
-- **`def.py`**: Function declarations, parameter passing, and return values.
-- **`list.py` & `tuple.py`**: Sequence data structures, indexing, slicing, and methods.
-- **`math.py`**: Trigonometric, logarithmic, and power functions in the `math` module.
-- **`random_demo.py`**: Random numbers, shuffling, and sampling with the `random` module.
-- **`time.py`**: Epoch timestamps, delays (`sleep`), and execution timing.
-- **`prime.py`**: Prime number checker and generator logic.
-- **`file.py`**: Basic text file reading and handling.
-- **`print.py` & `new22.py`**: Output formatting and basic variable assignments.
+Core Python language fundamentals, clean coding idioms, and standard library demonstrations:
+- **`variables_and_types.py`**: Dynamic typing, primitive data types, memory identity (`is` vs `==`), mutability, and type casting.
+- **`print_formatting.py`**: `print()` parameter controls (`sep`, `end`, `file`), modern f-strings, format specifiers, and alignment.
+- **`function_basics.py`**: Pure functions, type annotations, positional/keyword/keyword-only arguments, `*args`, `**kwargs`, closures, and lambdas.
+- **`list_operations.py`**: Indexing, forward/negative slicing, in-place mutations, sorting, copying, comprehensions, and iteration idioms.
+- **`tuple_operations.py`**: Immutability, memory efficiency, sequence slicing, unpacking, hashability, and `typing.NamedTuple`.
+- **`file_handling.py`**: Cross-platform path management with `pathlib.Path`, context managers (`with`), streaming generators, and safe exception handling.
+- **`math_operations.py`**: Number theory (`gcd`, `lcm`, `factorial`), powers, logarithms, trigonometry, precision comparisons (`isclose`), and mathematical constants.
+- **`random_operations.py`**: Pseudo-random number generation, sequence sampling, weighted selections, distributions, and security considerations (`secrets` module).
+- **`time_operations.py`**: UNIX epoch timestamps, `strftime`/`strptime` conversions, and monotonic high-resolution benchmarking (`time.perf_counter()`).
+- **`prime_numbers.py`**: Optimized primality testing (6k ± 1 trial division), Sieve of Eratosthenes ($O(n \log \log n)$), and prime factorization.
 
 ### 🔊 [`audio/`](./audio)
 Sound effects and background music in uncompressed 16-bit PCM WAV format used across the games:
@@ -110,5 +112,5 @@ python games/space_fighter.py
 python "data_science/Logistic Regression Algorithm.py"
 
 # Run a basics exercise
-python basics/prime.py
+python basics/prime_numbers.py
 ```
