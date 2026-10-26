@@ -11,6 +11,7 @@ A curated collection of Python scripts, categorized by application domain: games
 ├── audio/            # Sound effects (.wav) and background music assets
 ├── basics/           # Python fundamental concepts and syntax practice
 ├── data_science/     # NumPy, Pandas, Matplotlib, and Machine Learning algorithms
+├── dsa/              # College & university Data Structures & Algorithms lab programs
 ├── games/            # 2D and 3D games and physics simulations (Ursina, Pygame)
 └── text_files/       # Sample text data files
 ```
@@ -18,6 +19,19 @@ A curated collection of Python scripts, categorized by application domain: games
 ---
 
 ## 📁 Directory Overview
+
+### 🎓 [`dsa/`](./dsa)
+Complete university-level Data Structures and Algorithms (DSA) laboratory experiments:
+- **Searching**: Linear search, Sentinel search, Binary search (iterative, recursive, bounds), Jump search, Ternary search.
+- **Sorting**: Bubble sort (early exit), Selection sort, Insertion sort, Merge sort (divide & conquer, inversion counting), Quick sort (Lomuto & Hoare), Heap sort, Counting sort, Radix sort.
+- **Stacks**: Stack ADT (Array & Linked List), Infix to Postfix/Prefix, Postfix/Prefix evaluation, Balanced parentheses validator, Two stacks in one array.
+- **Queues**: Linear queue (Array & Linked List), Circular queue, Double-Ended Queue (Deque), Binary Min-Heap Priority queue.
+- **Linked Lists**: Singly linked list (with cycle detection & merging), Doubly linked list, Circular linked list, Polynomial addition & multiplication.
+- **Trees**: Binary tree traversals (DFS recursive/iterative & BFS level order), Binary Search Tree (3-case deletion), AVL Tree (self-balancing LL/RR/LR/RL), Min/Max Heaps.
+- **Graphs**: Matrix & List representations, BFS & DFS, Kahn's Topological sort, Dijkstra's shortest path, Bellman-Ford, Floyd-Warshall, Prim's MST, Kruskal's MST (Union-Find).
+- **Hashing**: Separate chaining with dynamic rehashing, Open addressing (Linear, Quadratic, Double hashing with tombstones).
+- **Classic Algorithms**: 0/1 & Fractional Knapsack, Longest Common Subsequence (LCS), Matrix Chain Multiplication (MCM), N-Queens (Backtracking), Huffman Coding.
+- **Interactive Runner**: Launch `python dsa/dsa_runner.py` for an interactive menu or to run the 43-test suite.
 
 ### 🎮 [`games/`](./games)
 Interactive games, 2D arcade classics, and progressive 3D prototype versions:
@@ -85,6 +99,9 @@ pip install -r requirements.txt
 Execute scripts directly with Python:
 
 ```bash
+# Run the interactive DSA Lab menu or test suite
+python dsa/dsa_runner.py
+
 # Run a game
 python games/Snake_Game.py
 python games/space_fighter.py
